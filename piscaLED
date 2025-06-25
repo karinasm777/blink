@@ -1,15 +1,15 @@
 
-int led=6;
+int led=6; // variavel inteira indicando que será ligad ao pino digital 6.
 
 void setup()
 {
-  pinMode(led, OUTPUT);
+  pinMode(led, OUTPUT); // informando que a variável led é uma saída (OUTPUT)
 }
 
 void loop()
 {
-  digitalWrite(led, HIGH);
-  delay(500); 
-  digitalWrite(led, LOW);
-  delay(500); 
+  digitalWrite(led, HIGH); //acende o led
+  delay(500); // atrasa 500 milisegundos
+  digitalWrite(led, LOW); // apaga o led
+  delay(500);  // atrasa 500 milisegundos
 }
